@@ -6,6 +6,16 @@
     <license>Apache 2.0</license>
     <keywords>cordova,android,locales,resources</keywords>
     <platform name="android">
-        <source-file src="res" target-dir="res" />
+        <source-file src="res/values-ar" target-dir="res" />
+        <source-file src="res/values-de" target-dir="res" />
+        <source-file src="res/values-es" target-dir="res" />
+        <source-file src="res/values-fr" target-dir="res" />
+        <source-file src="res/values-it" target-dir="res" />
+        <source-file src="res/values-ja" target-dir="res" />
+        <source-file src="res/values-nl" target-dir="res" />
+        <source-file src="res/values-pt" target-dir="res" />
+        <source-file src="res/values-ru" target-dir="res" />
+        <source-file src="res/values-tr" target-dir="res" />
+        <source-file src="res/values-zh" target-dir="res" />
     </platform>
 </plugin>
