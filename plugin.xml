@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-android-resources" version="1.0">
+    <name>cordova-plugin-android-resources</name>
+    <description>Adds support for android resources, creates additional directories inside plateform android res/.</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,android,locales,resources</keywords>
+    <platform name="android">
+        <source-file src="res" target-dir="res" />
+    </platform>
+</plugin>
